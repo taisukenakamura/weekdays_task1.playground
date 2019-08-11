@@ -139,9 +139,12 @@ for num in 1...50 {
 // 1-13 配列（追加）
 // 改行
 var valueE : [Int] = []
-for valueE in 1...50 {
-    print(valueE,terminator: "")
+for i in 1...50 {
+    
+ valueE.append(i)
+    
 }
+print(valueE)
 
 // 1-14配列（削除）
 var valueF  = ["リュウ", "ケン", "ナッシュ", "ガイル", "ベガ", "フェイロン"]
